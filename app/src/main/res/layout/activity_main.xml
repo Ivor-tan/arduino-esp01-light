@@ -81,6 +81,40 @@
         android:gravity="center"
         android:text="Close" />
 
+    <Button
+        android:id="@+id/CloseAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CloseAll" />
+
+    <Button
+        android:id="@+id/OpenAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="OpenAll" />
+
+    <EditText
+        android:id="@+id/loopTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="单位/毫秒"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/LoopAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LoopAll" />
+
+    <Button
+        android:id="@+id/LoopCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LoopCancel" />
 
     <Button
         android:id="@+id/ClearWifiConfig"

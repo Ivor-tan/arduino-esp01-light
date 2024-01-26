@@ -2,7 +2,7 @@ package com.ivor.arduino_esp01_light.tools;
 
 public class UdpMassageAssemble {
 
-    public static final String LIGHT_COLOR_WHITE = "White";
+    public static final String[] LIGHT_COLORS = new String[]{"White", "Yellow", "Red", "Green", "Blue"};
     public static final String LIGHT_COLOR_Yellow = "Yellow";
     public static final String LIGHT_COLOR_RED = "Red";
     public static final String LIGHT_COLOR_GREEN = "Green";
@@ -11,7 +11,7 @@ public class UdpMassageAssemble {
     public static final String LIGHT_STATE_ON = "ON";
     public static final String LIGHT_STATE_OFF = "OFF";
 
-    public static final String LIGHT_DEFAULT_STRENGTH = "200";
+    public static final String LIGHT_DEFAULT_STRENGTH = "200";//值越大，亮度越低
 
     public static final String CLEAR_CONFIG = "ClearConfig";
 
